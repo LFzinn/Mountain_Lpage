@@ -1,0 +1,66 @@
+section {
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+.section_container {
+  position: relative;
+  bottom: -25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11.4rem;
+}
+
+.section_txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  gap: 2.7rem;
+
+
+}
+
+.number {
+  position: absolute;
+  font-size: 24rem;
+  top: -14rem;
+  left: -15rem;
+  opacity: 10%;
+  font-family: 'gilroy';
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  letter-spacing: 5px;
+  color: var(--text_yl);
+  text-transform: uppercase;
+}
+
+.section_txt h2 {
+  font-size: 6.4rem;
+  font-family: 'mountain';
+}
+
+.section_txt p {
+  line-height: 2.6rem;
+}
+
+
+.read_more a {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  color: var(--text_yl);
+
+}
+
+
+
+.section_image img {
+  width: 40rem;
+  height: 50rem;
+}

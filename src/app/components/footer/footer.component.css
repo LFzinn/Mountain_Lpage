@@ -1,0 +1,85 @@
+footer {
+  max-width: 150rem;
+  margin: 0 auto 2rem auto;
+
+}
+
+.footer_container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_container a:hover {
+  color: var(--text_yl);
+}
+
+.footer_container::before {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text_yl);
+}
+
+.footer_col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title_footer {
+  font-family: 'mountain';
+  font-size: 3.8rem;
+
+}
+
+
+.footer_col1 p {
+  max-width: 30rem;
+
+
+}
+
+.footer_col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer_title {
+  color: var(--text_yl);
+}
+
+.footer_col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+@media (max-width: 750px) {
+  .footer_container {
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    top: -20rem;
+  }
+
+
+
+  .footer_col1 {
+    order: 3;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer_title {
+    font-size: 3rem;
+  }
+
+
+}

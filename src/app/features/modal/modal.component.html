@@ -1,0 +1,37 @@
+<div class="modal_overlay" (click)="closeModal()"></div>
+<div class="modal">
+  <div class="modal_content">
+    <div class="modal_txt">
+      <h3>Receive updates by email</h3>
+      <p>We do not send spam to your email.</p>
+    </div>
+
+
+
+    <form [formGroup]="formData" (ngSubmit)="send()">
+
+      <div class="form_field">
+        <label for="name">Name</label>
+        <input id="name" type="text" formControlName="name" placeholder="How would you like to be called?">
+        <p class="error_msg" *ngIf="formData.get('name')?.invalid && formData.get('name')?.dirty">Max 14 characters
+        </p>
+      </div>
+
+      <div class="form_field">
+        <label for="email">Email Address</label>
+        <input id="email" type="text" formControlName="email" placeholder="What's your email address?">
+
+        <p class="error_msg" *ngIf="formData.get('email')?.invalid && formData.get('email')?.touched">Invalid Email
+        </p>
+      </div>
+
+
+
+      <div class="btn_container">
+        <button class="btn" type="submit">Send Email</button>
+      </div>
+
+
+    </form>
+  </div>
+</div>

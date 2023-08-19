@@ -1,0 +1,31 @@
+<header>
+  <div class="header_container">
+    <span class="logo">MNTN</span>
+
+    <div class="nav">
+      <div class="menu-toggle" (click)="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav>
+        <ul class="menu-items" [ngClass]="{'active': isMenuOpen}">
+          <li><a href="#"> Equipment</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <a class="login" href="#" (click)="openModal()">
+      <img src="../../../assets/icons/conta.png" alt="icon login">
+      <div class="user_modal">
+        <p>Hello,</p>
+        <span *ngIf="formData.get('name')?.invalid">User</span>
+        <span *ngIf="formData.get('name')?.valid">{{formData.value.name}}</span>
+      </div>
+    </a>
+
+
+  </div>
+</header>

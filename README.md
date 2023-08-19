@@ -27,4 +27,15 @@
 
 **Luiz Fernando Silva**
 
-## Projeto
+[Deploy](https://mountain-lpage.vercel.app/)
+
+## Desktop Version
+
+![Home](./src/assets/public_assets/1.png)
+![Home](./src/assets/public_assets/2.png)
+![Home](./src/assets/public_assets/5.png)
+
+## Mobile Version
+
+![Home](./src/assets/public_assets/gif1.gif)
+![Home](./src/assets/public_assets/gif2.gif)

@@ -2,7 +2,7 @@
 
 ## Tecnologias Utilizadas
 
-- Angular versão: 15.2.9
+- Angular versão: 16.2.1
 - TypeScript versão: 4.9.5
 - CSS
 

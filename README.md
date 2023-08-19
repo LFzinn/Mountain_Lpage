@@ -1,27 +1,30 @@
-# Mountain
+# Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+## Tecnologias Utilizadas
 
-## Development server
+- Angular versão: 15.2.9
+- TypeScript versão: 4.9.5
+- CSS
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Serviços Usados
 
-## Code scaffolding
+- GitHub
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Características
 
-## Build
+- **100% Responsivo**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Links
 
-## Running unit tests
+- Repositório: https://github.com/LFzinn/Mountain_Lpage.<br>
+  Em caso de encontrar algum bug ou inconsistência, por favor, entre em contato comigo através do [LinkedIn](https://www.linkedin.com/in/lfsilvaferreira/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Versão
 
-## Running end-to-end tests
+1.0.0.0
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Autor
 
-## Further help
+**Luiz Fernando Silva**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Projeto

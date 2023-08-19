@@ -2,6 +2,10 @@
   color: #fff;
 }
 
+.header {
+  position: relative;
+  z-index: 5;
+}
 
 .background {
   max-width: 100%;
@@ -24,16 +28,6 @@
 .section_container {
   position: relative;
   top: -60rem;
-}
-
-
-.back_home {
-  position: fixed;
-  z-index: 3;
-  right: 1rem;
-  bottom: 1rem;
-  transform: rotate(180deg);
-  cursor: pointer;
 }
 
 

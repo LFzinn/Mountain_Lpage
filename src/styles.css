@@ -51,6 +51,8 @@ body {
 }
 
 
+
+
 @media (max-width: 1500px) {
   .section_container {
     flex-direction: column;

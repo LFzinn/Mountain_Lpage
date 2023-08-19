@@ -1,5 +1,5 @@
 header {
-  max-width: 170rem;
+  max-width: 150rem;
   margin: 0 auto;
 
 }
@@ -110,12 +110,11 @@ header {
     right: -50rem;
   }
 
-
   .menu-items.active {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     position: absolute;
     top: 6rem;
     right: 0;
@@ -128,12 +127,6 @@ header {
   .menu-items li {
     border-bottom: 1px solid #ddd;
     padding: 1rem 0;
-  }
-
-
-  .overlay {
-    width: 100%;
-    background-color: rebeccapurple;
   }
 
 
